@@ -1,5 +1,5 @@
 {
-    "name": "Telegram Support Bot",
+    "name": "بکس رسان گپمون",
     "description": "Deploy a Telegram bot that will help you to hide your identity.",
     "keywords": [
       "telegram-bot",
@@ -12,6 +12,15 @@
     "env": {
       "HEROKU_APP_NAME": {
         "description": "The name of your Heroku app. Yes, again. Just copy-paste it!"
+      },
+      "WELCOME_MESSAGE": {
+        "description": "پیام خوشامدگویی"
+      },
+      "REPLY_TO_THIS_MESSAGE": {
+        "description": "اگر کاربر اجازه فوروارد پیام های خود را نمی دهد، ربات نظر خود را با آی دی عددی اضافه می کند تا پاسخ دهید"
+      },
+      "WRONG_REPLY": {
+        "description": "پیام برا تیم ساپورت اگه ریپلای اشتباه کنن"
       },
       "TELEGRAM_TOKEN": {
         "description": "Your bot's token. Visit https://t.me/BotFather"
